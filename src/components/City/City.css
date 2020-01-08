@@ -1,0 +1,25 @@
+/* Global Styles */
+body {
+  background-color: #ebf5fb; /* #d1f2eb; */
+}
+
+/* Div Styles */
+.form-group {
+  margin-bottom: 0;
+}
+
+.commDetailsLabel {
+  font-size: 16px;
+}
+
+/* Card Styles */
+
+.card-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-body,
+#resultDisplay {
+  font-size: 16px;
+}

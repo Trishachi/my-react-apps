@@ -1,0 +1,40 @@
+p {
+  font-size: 16px;
+}
+
+#wrapper {
+  color: black;
+}
+
+#leftPanel {
+  border: 2px solid black;
+  height: 100vh;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #eee;
+  overflow: scroll;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+p.node,
+p.currentNode {
+  margin-bottom: 0;
+}
+
+.currentNode {
+  color: #09d3ac;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.total {
+  font-size: 16px;
+  font-weight: bold;
+}

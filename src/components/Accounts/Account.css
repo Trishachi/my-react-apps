@@ -1,0 +1,103 @@
+#wrapper {
+  color: black;
+}
+
+#leftPanel,
+#rightPanel {
+  border: 2px solid black;
+  height: 100vh;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #eee;
+  overflow: scroll;
+}
+
+.panelTitle {
+  padding: 10px;
+}
+
+#accOptions,
+#commOptions {
+  text-align: justify;
+}
+
+.hide {
+  display: none;
+}
+
+.unhide {
+  display: block;
+}
+
+.accDetailsLabel {
+  font-size: 16px;
+}
+
+.accDetailsValue,
+.commDetailsValue {
+  color: #007bff;
+  font-size: 20px;
+}
+
+.col-form-label {
+  font-size: 16px !important;
+}
+
+#accSumMessage div {
+  margin: 30px 0;
+}
+
+#addCard {
+  margin: 20px;
+}
+
+[class*="col-"] {
+  margin-bottom: 15px;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card-body + div {
+  padding-bottom: 15px;
+}
+
+.accTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.effectiveBalance {
+  font-size: 18px;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+.spacerBottom {
+  padding-bottom: 15px;
+}
+
+.spacerTop {
+  padding-top: 10px;
+}
+
+.spacer {
+  padding: 10px 0;
+}
+
+@media only screen and (min-width: 860px) {
+  /* For bigger screens */
+  #container {
+    width: 35%;
+  }
+}
