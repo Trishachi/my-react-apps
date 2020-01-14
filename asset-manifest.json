@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/my-react-apps/static/css/main.e7872eaf.chunk.css",
-    "main.js": "/my-react-apps/static/js/main.361be567.chunk.js",
-    "main.js.map": "/my-react-apps/static/js/main.361be567.chunk.js.map",
+    "main.css": "/my-react-apps/static/css/main.0575dff8.chunk.css",
+    "main.js": "/my-react-apps/static/js/main.abafb8b5.chunk.js",
+    "main.js.map": "/my-react-apps/static/js/main.abafb8b5.chunk.js.map",
     "runtime-main.js": "/my-react-apps/static/js/runtime-main.a971bd2e.js",
     "runtime-main.js.map": "/my-react-apps/static/js/runtime-main.a971bd2e.js.map",
     "static/css/2.7aa6f31f.chunk.css": "/my-react-apps/static/css/2.7aa6f31f.chunk.css",
-    "static/js/2.f4ed6800.chunk.js": "/my-react-apps/static/js/2.f4ed6800.chunk.js",
-    "static/js/2.f4ed6800.chunk.js.map": "/my-react-apps/static/js/2.f4ed6800.chunk.js.map",
+    "static/js/2.98333b7e.chunk.js": "/my-react-apps/static/js/2.98333b7e.chunk.js",
+    "static/js/2.98333b7e.chunk.js.map": "/my-react-apps/static/js/2.98333b7e.chunk.js.map",
     "index.html": "/my-react-apps/index.html",
-    "precache-manifest.9b829bcd0694b3d3f91cf1ddc4e54c68.js": "/my-react-apps/precache-manifest.9b829bcd0694b3d3f91cf1ddc4e54c68.js",
+    "precache-manifest.fe17ad8fd0bfb450fcc7982a0489b781.js": "/my-react-apps/precache-manifest.fe17ad8fd0bfb450fcc7982a0489b781.js",
     "service-worker.js": "/my-react-apps/service-worker.js",
     "static/css/2.7aa6f31f.chunk.css.map": "/my-react-apps/static/css/2.7aa6f31f.chunk.css.map",
-    "static/css/main.e7872eaf.chunk.css.map": "/my-react-apps/static/css/main.e7872eaf.chunk.css.map",
+    "static/css/main.0575dff8.chunk.css.map": "/my-react-apps/static/css/main.0575dff8.chunk.css.map",
     "static/media/accounts.svg": "/my-react-apps/static/media/accounts.37db4ad6.svg",
     "static/media/cities.svg": "/my-react-apps/static/media/cities.481f3486.svg",
     "static/media/link.svg": "/my-react-apps/static/media/link.6ccfdef6.svg",
     "static/media/logo.svg": "/my-react-apps/static/media/logo.25bf045c.svg",
     "static/media/settings.svg": "/my-react-apps/static/media/settings.b165e1af.svg",
-    "static/media/tictactoe.svg": "/my-react-apps/static/media/tictactoe.348ca21b.svg",
+    "static/media/tictactoe.svg": "/my-react-apps/static/media/tictactoe.d05957f3.svg",
     "static/media/welcome.svg": "/my-react-apps/static/media/welcome.c8ecb422.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a971bd2e.js",
     "static/css/2.7aa6f31f.chunk.css",
-    "static/js/2.f4ed6800.chunk.js",
-    "static/css/main.e7872eaf.chunk.css",
-    "static/js/main.361be567.chunk.js"
+    "static/js/2.98333b7e.chunk.js",
+    "static/css/main.0575dff8.chunk.css",
+    "static/js/main.abafb8b5.chunk.js"
   ]
 }
