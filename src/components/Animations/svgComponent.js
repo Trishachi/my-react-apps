@@ -7,7 +7,7 @@ import link from "./link.svg";
 import settings from "./settings.svg";
 import "./svgComponent.css";
 
-const Animation = props => {
+const Animation = (props) => {
   return (
     <div id="Header" className="Navigation">
       <img
@@ -55,7 +55,7 @@ const Animation = props => {
         onMouseLeave={props.mouseOutEvent}
         onClick={props.ButtonClicked}
       />
-      <img
+      {/* <img
         id="Settings"
         src={settings}
         className="svg-image animate2"
@@ -63,7 +63,7 @@ const Animation = props => {
         onMouseOver={props.mouseOverEvent}
         onMouseLeave={props.mouseOutEvent}
         onClick={props.ButtonClicked}
-      />
+      /> */}
     </div>
   );
 };

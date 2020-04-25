@@ -17,27 +17,27 @@ class App extends React.Component {
     super();
     this.state = {
       myState: "Hover on menu icon to display App Name",
-      currentIcon: "Home"
+      currentIcon: "Home",
     };
   }
 
-  onMouseOver = evt => {
+  onMouseOver = (evt) => {
     // console.log(evt.target.id);
     this.setState({
-      myState: `${evt.target.id} Exercise`
+      myState: `${evt.target.id} Exercise`,
     });
   };
 
   onMouseOut = () => {
     this.setState({
-      myState: "Hover on menu icon to display App Name"
+      myState: "Hover on menu icon to display App Name",
     });
   };
 
-  onButtonClick = evt => {
+  onButtonClick = (evt) => {
     // console.log(evt.target.id + " Button Clicked");
     this.setState({
-      currentIcon: evt.target.id
+      currentIcon: evt.target.id,
     });
   };
 
@@ -59,7 +59,7 @@ class App extends React.Component {
           {this.state.currentIcon === "Accounts" && <AccountComp />}
           {this.state.currentIcon === "Cities" && <City />}
           {this.state.currentIcon === "Lists" && <LinkedListApp />}
-          {this.state.currentIcon === "Settings" && <ThemeApp />}
+          {/* {this.state.currentIcon === "Settings" && <ThemeApp />} */}
         </header>
       </div>
     );
