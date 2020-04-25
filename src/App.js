@@ -8,6 +8,7 @@ import DefaultApp from "./components/DefaultApp/DefaultApp.js";
 import AccountComp from "./components/Accounts/Account.js";
 import City from "./components/City/City.js";
 import LinkedListApp from "./components/Lists/LinkedListApp.js";
+import StackQueueApp from "./components/stackQueue/stackQueueApp.js";
 import ThemeApp from "./components/Theme/ThemeSettings.js";
 import ThemeContext, { themes } from "./components/Theme/ThemeContext.js";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -59,6 +60,7 @@ class App extends React.Component {
           {this.state.currentIcon === "Accounts" && <AccountComp />}
           {this.state.currentIcon === "Cities" && <City />}
           {this.state.currentIcon === "Lists" && <LinkedListApp />}
+          {this.state.currentIcon === "Stack" && <StackQueueApp />}
           {/* {this.state.currentIcon === "Settings" && <ThemeApp />} */}
         </header>
       </div>
