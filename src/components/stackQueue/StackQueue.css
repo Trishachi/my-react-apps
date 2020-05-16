@@ -1,0 +1,15 @@
+.small-card {
+  width: 120px;
+}
+
+.card-header {
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+#messageDisplay h6 {
+  padding-top: 15px;
+}
