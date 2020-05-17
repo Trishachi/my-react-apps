@@ -90,7 +90,7 @@ const StackQueueApp = () => {
             </div>
             <div id="stackQueueDisplay" className="container hide">
               <h5 className="panelTitle text-center">Stack/Queue Display</h5>
-              <div className="container">{profiles}</div>
+              <div className="container center-item">{profiles}</div>
             </div>
           </div>
         </div>

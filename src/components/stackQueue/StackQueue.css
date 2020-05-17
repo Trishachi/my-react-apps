@@ -4,6 +4,9 @@
 
 .small-card {
   width: 120px;
+
+  margin: 0.5rem;
+  border-radius: 0.2rem;
 }
 
 .card-header {
@@ -16,4 +19,10 @@ img {
 
 #messageDisplay h6 {
   padding-top: 15px;
+}
+
+.center-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
