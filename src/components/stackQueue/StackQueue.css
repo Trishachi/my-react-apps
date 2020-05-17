@@ -1,3 +1,7 @@
+.card {
+  display: inline-block;
+}
+
 .small-card {
   width: 120px;
 }
