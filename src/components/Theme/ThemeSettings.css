@@ -10,3 +10,18 @@
   /* color: #222; */
   color: white;
 }
+
+#form_dropdown {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.dark {
+  background-color: #282c34;
+  color: whitesmoke;
+}
+
+.light {
+  background-color: #ccc;
+  color: #282c34;
+}

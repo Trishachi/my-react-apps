@@ -1,24 +1,31 @@
-import React from "react";
+import React, { useContext } from "react";
+import "../../App.css";
 import "./ThemeSettings.css";
-import "../Accounts/Account.css";
-import { DropdownButton, Dropdown } from "react-bootstrap";
+import { Form } from "react-bootstrap";
+import { ThemeContext } from "./ThemeContext";
 
-class ThemeApp extends React.Component {
-  constructor() {
-    super();
-  }
-
-  render() {
-    return (
-      <React.Fragment>
-        <h2 className="spacer">Select Theme Settings</h2>
-        <DropdownButton id="dropdown-basic-button" title="Select Theme">
-          <Dropdown.Item href="#/action-1">Default Theme</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Light Theme</Dropdown.Item>
-        </DropdownButton>
-      </React.Fragment>
-    );
-  }
-}
+const ThemeApp = () => {
+  const theme = useContext(ThemeContext);
+  return (
+    <React.Fragment>
+      {/* <h2 className="spacer">Theme Settings</h2> */}
+      <div className="container">
+        <Form.Group>
+          <Form.Label>Select Theme</Form.Label>
+          <Form.Control
+            as="select"
+            id="form_dropdown"
+            name="background"
+            value={theme.background}
+            onChange={theme.handleBackground}
+          >
+            <option value="dark">Default Theme</option>
+            <option value="light">Light Theme</option>
+          </Form.Control>
+        </Form.Group>
+      </div>
+    </React.Fragment>
+  );
+};
 
 export default ThemeApp;

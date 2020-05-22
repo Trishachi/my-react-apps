@@ -1,27 +1,22 @@
 import React, { useState } from "react";
 
-const ThemeContext = React.createContext({
-  dark: false,
-  toggle: () => {}
-});
+export const ThemeContext = React.createContext("dark");
 
-export function ThemeProvider(props) {
-  const [dark, setDark] = useState(false);
+export function ThemeContextProvider(props) {
+  let [background, setBackground] = useState("light");
 
-  const toggle = () => {
-    setDark(!dark);
-    window.localStorage.setItem("darkTheme", !dark);
+  const contextValues = {
+    background: background,
+    handleBackground: handleBackground,
   };
+
+  function handleBackground(event) {
+    setBackground(event.target.value);
+  }
+
   return (
-    <ThemeContext.Provider
-      value={{
-        dark,
-        toggle
-      }}
-    >
+    <ThemeContext.Provider value={contextValues}>
       {props.children}
     </ThemeContext.Provider>
   );
 }
-
-export default ThemeContext;

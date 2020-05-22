@@ -3,12 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { ThemeProvider } from "./components/Theme/ThemeContext";
+import { ThemeContextProvider } from "./components/Theme/ThemeContext";
 
 ReactDOM.render(
-  <ThemeProvider>
+  <ThemeContextProvider>
     <App />
-  </ThemeProvider>,
+  </ThemeContextProvider>,
   document.getElementById("root")
 );
 
