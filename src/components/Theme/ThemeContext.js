@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export const ThemeContext = React.createContext("dark");
 
 export function ThemeContextProvider(props) {
-  let [background, setBackground] = useState("light");
+  let [background, setBackground] = useState("dark");
 
   const contextValues = {
     background: background,
