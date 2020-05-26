@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Project
 
-## Available Scripts
+This project/repository is a single page react app containing ReactJS exercises/competencies for the EvolveU Full Stack Developer Program.
 
-In the project directory, you can run:
+The app consists of 7 mini apps rendered diferently on the main single page application by implementing conditional rendering depending on the icon selected from the icon menu.
 
-### `npm start`
+### Welcome App
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Simple intro to create react app and implementation of the conditional rendering.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### TicTacToe App
 
-### `npm test`
+TicTacToe Game App
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Accounts App
 
-### `npm run build`
+The app simulates a bank account management dashboard for creating and managing various bank accounts. It has functionalities for withdrawing and depositing into your various accounts and a display of your highest value and lowest value accounts.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Cities App
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The app simulates a cities management dashboard for building and keeping track of a community. It can be used to keep record of various cities with their population and coordinates and displays details of the whole community.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Linked List App
 
-### `npm run eject`
+Implementation of the Linked List Data Structure.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Stack/Queue App
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Implementation of a Stack/LIFO (Last in First out) and a Queue/FIFO (First in First out). App makes use of call to Robohash API for displaying user profile components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Theme Settings App
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Theme settings app implemented using the React context API for switching from dark theme to light theme accross the entire single page application.
 
-## Learn More
+## Resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React Getting Started: https://reactjs.org/docs/getting-started.html
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React Main Concepts: https://reactjs.org/docs/hello-world.html
 
-### Code Splitting
+React Tutorial(Building a TicTacToe Game): https://reactjs.org/tutorial/tutorial.html
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Adding Bootstrap: https://create-react-app.dev/docs/adding-bootstrap
 
-### Analyzing the Bundle Size
+Importing a React Component (When to use curly braces): https://create-react-app.dev/docs/importing-a-component/
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Migrating you front end to React - step by step: https://xebia.com/blog/migrating-to-react-step-by-step/
 
-### Making a Progressive Web App
+Linked List in JavaScript: https://codeburst.io/linked-lists-in-javascript-es6-code-part-1-6dd349c3dcc3
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Using React Context API: https://www.taniarascia.com/using-context-api-in-react/
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+React App Deployment: https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom
