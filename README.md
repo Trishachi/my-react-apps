@@ -44,9 +44,11 @@ Adding Bootstrap: https://create-react-app.dev/docs/adding-bootstrap
 
 Importing a React Component (When to use curly braces): https://create-react-app.dev/docs/importing-a-component/
 
-Migrating you front end to React - step by step: https://xebia.com/blog/migrating-to-react-step-by-step/
+Migrating your front end to React - step by step: https://xebia.com/blog/migrating-to-react-step-by-step/
 
 Linked List in JavaScript: https://codeburst.io/linked-lists-in-javascript-es6-code-part-1-6dd349c3dcc3
+
+Robohash API: https://robohash.org/
 
 Using React Context API: https://www.taniarascia.com/using-context-api-in-react/
 
